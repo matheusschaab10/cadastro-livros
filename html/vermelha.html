@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Rainha Vermelha</title>
+    <link rel="stylesheet" href="CSS/tuaobra.css">
+    <link rel="shortcut icon" href="./image/Logos-DMC-png.png" type="image/x-icon">
+</head>
+<body>
+
+    <header style="text-align: center;justify-content: center; align-items: center;">
+        <div id="header" class="header"> 
+          <h3 class="title"> Escola Estadual Décio Martins Costa </h3>
+          <img class="Logo" src="./image/Logos-DMC-png.png" alt="Logo Décio" width="100px" height="110px">
+        </div>
+      </header>
+
+      <section>
+       <a href="./page.html">Voltar</a>
+      </section>
+
+    <main>
+        <section>
+        <div class="card">
+            <img src="./image/livro 9- A rainha vermelha.jpg" alt="A Rainha Vermelha" height="650px">
+        </div>
+        <div class="txt">
+            <h2>A RAINHA VERMLHA</h2>
+            <p class="txt-resumo">"A Rainha Vermelha" é o primeiro livro da série homônima escrita por Victoria Aveyard. Publicado em 2015, o romance pertence ao gênero de fantasia jovem adulto e se passa em um mundo dividido por diferenças 
+            sociais, onde as pessoas são classificadas pelo tipo de sangue que possuem: Vermelho ou Prateado. <br>
+            Mare Barrow, a protagonista, pertence à classe dos Vermelhos, que são considerados inferiores pelos Prateados, que possuem habilidades sobrenaturais. Entretanto, uma reviravolta ocorre quando Mare, uma garota comum, descobre que possui 
+            poderes especiais, desafiando a estrutura de poder existente. <br>
+            Mare é forçada a se envolver na intrincada política da corte Prateada, onde a trama se desenrola com jogos de poder, conspirações e rivalidades. Ela se torna parte de um jogo perigoso, onde precisa navegar entre lealdades e traições 
+            enquanto tenta manter sua verdadeira identidade em segredo.
+            </p> <br>
+
+            <p class="txt-autor"><strong>Autor: </strong>Autora norte-americana nascida em 27 de julho de 1990. Aveyard é conhecida por seus trabalhos no gênero de fantasia jovem adulto. Ela cresceu em uma família de escritores e desenvolveu seu interesse 
+            por contar histórias desde jovem. <br>
+            Antes de se dedicar à escrita em tempo integral, Victoria Aveyard trabalhou em diversas áreas, incluindo produção de TV e redação. Sua estreia na literatura com "A Rainha Vermelha" foi notável, conquistando uma base de fãs considerável.
+            </p>
+        </div>
+        </section>
+
+        <button onclick="abrirAlert()" class="btn2">
+           Alugar 
+        </button>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function abrirAlert() {
+        Swal.fire({
+            title: "Olá!",
+            text: 'Você alugou o livro A Rainha Vermelha. Deve retornar o livro dentro de 15 dias, caso contrario será cobrado multa no seu e-mail institucional.',
+            icon: "success"
+        });
+
+    }
+</script>
+</html>

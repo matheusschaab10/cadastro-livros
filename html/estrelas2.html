@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Culpa É Das Estrelas</title>
+    <link rel="stylesheet" href="CSS/tuaobra.css">
+    <link rel="shortcut icon" href="./image/Logos-DMC-png.png" type="image/x-icon">
+</head>
+<body>
+
+    <header style="text-align: center;justify-content: center; align-items: center;">
+        <div id="header" class="header"> 
+          <h3 class="title"> Escola Estadual Décio Martins Costa </h3>
+          <img class="Logo" src="./image/Logos-DMC-png.png" alt="Logo Décio" width="100px" height="110px">
+        </div>
+      </header>
+
+      <section>
+       <a href="./page2.html">Voltar</a>
+      </section>
+
+    <main>
+        <section>
+        <div class="card">
+            <img src="./image/livro 6- Culpa é das estrelas.jpg" alt="A Culpa É Das Estrelas" height="650px">
+        </div>
+        <div class="txt">
+            <h2>A CULPA É DAS ESTRELAS</h2>
+            <p class="txt-resumo">"A Culpa é das Estrelas" é um romance escrito por John Green. A história é narrada por Hazel Grace Lancaster, uma jovem que luta contra o câncer e cuja vida muda quando ela conhece 
+            Augustus Waters, um rapaz também enfrentando a doença. Juntos, eles embarcam em uma jornada de descobertas, amor e aceitação. <br>
+            Hazel e Augustus compartilham uma conexão profunda e única, explorando questões existenciais e filosóficas enquanto enfrentam os desafios de suas condições de saúde. A narrativa aborda temas como a mortalidade, 
+            a busca por significado na vida e a importância de aproveitar cada momento. <br>
+            O livro equilibra o peso emocional das circunstâncias dos personagens com o humor, criando uma história comovente que toca os leitores. John Green trata as complexidades da vida e da morte com sensibilidade, 
+            explorando a beleza que pode ser encontrada mesmo em meio à dor.
+            </p> <br>
+
+            <p class="txt-autor"><strong>Autor: </strong>John Green é um renomado autor, vlogger e produtor norte-americano, nascido em 24 de agosto de 1977, em Indianapolis, Indiana. Ele é conhecido por seu estilo de escrita único e 
+            por abordar temas profundos e emocionais em seus livros voltados para o público jovem adulto. <br>
+            Além de "A Culpa é das Estrelas," Green escreveu vários outros best-sellers, incluindo "Quem é Você, Alasca?" e "Cidades de Papel". Suas obras são elogiadas por explorar temas como amor, amizade, perda e as complexidades da vida adolescente.
+            </p>
+        </div>
+        </section>
+
+        <button onclick="abrirAlert()" class="btn2">
+           Alugar 
+        </button>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function abrirAlert() {
+        Swal.fire({
+            title: "Olá!",
+            text: 'Você alugou o livro A Culpa É Das Estrelas. Deve retornar o livro dentro de 15 dias, caso contrario será cobrado multa no seu e-mail institucional.',
+            icon: "success"
+        });
+
+    }
+</script>
+</html>

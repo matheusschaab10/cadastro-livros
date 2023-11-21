@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eu E Esse Meu Coração</title>
+    <link rel="stylesheet" href="CSS/tuaobra.css">
+    <link rel="shortcut icon" href="./image/Logos-DMC-png.png" type="image/x-icon">
+</head>
+<body>
+
+    <header style="text-align: center;justify-content: center; align-items: center;">
+        <div id="header" class="header"> 
+          <h3 class="title"> Escola Estadual Décio Martins Costa </h3>
+          <img class="Logo" src="./image/Logos-DMC-png.png" alt="Logo Décio" width="100px" height="110px">
+        </div>
+      </header>
+
+      <section>
+       <a href="./page.html">Voltar</a>
+      </section>
+
+    <main>
+        <section>
+        <div class="card">
+            <img src="./image/livro 11- eu e esse meu coração.jpg" alt="A Rainha Vermelha" height="650px">
+        </div>
+        <div class="txt">
+            <h2>EU E ESSE MEU CORAÇÃO</h2>
+            <p class="txt-resumo">Matt, o irmão gêmeo do doador, se recusa a acreditar que Eric se suicidou. Quando Leah o procura, eles descobrem que ambos têm sonhos semelhantes que podem ter pistas do que realmente aconteceu a Eric. Enquanto tentam 
+            desvendar esse mistério, Matt e Leah se apaixonam e não querem correr o risco de perder um ao outro. <br>
+            </p> <br>
+
+            <p class="txt-autor"><strong>Autor: </strong>C.C. Hunter é o pseudônimo da autora americana Christie Craig, conhecida por seus romances voltados para jovens adultos e ficção paranormal. Ela ganhou destaque com a série "Acampamento Shadow 
+            Falls", que combina elementos de romance, mistério e fantasia. <br>
+            "Acampamento Shadow Falls" começa com "Nascida à Meia-Noite" e segue a história de Kylie Galen, uma adolescente que é enviada para um acampamento especial para jovens com habilidades sobrenaturais. O acampamento, chamado Shadow Falls, 
+            acolhe criaturas como vampiros, lobisomens, e fadas. Kylie, no entanto, ainda está tentando entender sua própria natureza paranormal.
+            </p>
+        </div>
+        </section>
+
+        <button onclick="abrirAlert()" class="btn2">
+           Alugar 
+        </button>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function abrirAlert() {
+        Swal.fire({
+            title: "Olá!",
+            text: 'Você alugou o livro Eu E Esse Meu Coração. Deve retornar o livro dentro de 15 dias, caso contrario será cobrado multa no seu e-mail institucional.',
+            icon: "success"
+        });
+
+    }
+</script>
+</html>

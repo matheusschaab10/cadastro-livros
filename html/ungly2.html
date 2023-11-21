@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ungly Love</title>
+    <link rel="stylesheet" href="CSS/tuaobra.css">
+    <link rel="shortcut icon" href="./image/Logos-DMC-png.png" type="image/x-icon">
+</head>
+<body>
+
+    <header style="text-align: center;justify-content: center; align-items: center;">
+        <div id="header" class="header"> 
+          <h3 class="title"> Escola Estadual Décio Martins Costa </h3>
+          <img class="Logo" src="./image/Logos-DMC-png.png" alt="Logo Décio" width="100px" height="110px">
+        </div>
+      </header>
+
+      <section>
+       <a href="./page2.html">Voltar</a>
+      </section>
+
+    <main>
+        <section>
+        <div class="card">
+            <img src="./image/livro 5-Ungly love.jpg" alt="5-Ungly love" height="650px">
+        </div>
+        <div class="txt">
+            <h2>UNGLY LOVE</h2>
+            <p class="txt-resumo">"Ugly Love" é um romance contemporâneo escrito por Colleen Hoover. A história segue Tate Collins, uma estudante de enfermagem, e Miles Archer, um piloto de avião atormentado por seu passado. Os dois personagens principais 
+            se envolvem em um relacionamento complicado e emocional. <br>
+            Miles, apesar de sua atração por Tate, está relutante em se abrir devido a cicatrizes emocionais de um evento traumático em sua vida. O livro explora temas como superação, perdão e a capacidade de amar novamente após experiências dolorosas.
+            </p> <br>
+
+            <p class="txt-autor"><strong>Autor: </strong>escrito por Colleen Hoover, uma autora norte-americana nascida em 11 de dezembro de 1979. Hoover é conhecida por seus romances contemporâneos que frequentemente exploram temas emocionais profundos 
+            e relacionamentos complexos. <br>
+            Colleen Hoover começou sua carreira como autora em 2012 com o livro "Slammed," que se tornou um best-seller do New York Times. Desde então, ela tem continuado a escrever romances populares, ganhando uma grande base de fãs. <br>
+            Seu estilo de escrita é elogiado por sua capacidade de criar narrativas emocionantes e envolventes, abordando questões como amor, perda, superação e redenção. "Ugly Love" é um dos romances mais conhecidos de Colleen Hoover e demonstra sua 
+            habilidade em construir histórias cativantes que ressoam com os leitores.
+            </p>
+        </div>
+        </section>
+
+        <button onclick="abrirAlert()" class="btn2">
+           Alugar 
+        </button>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function abrirAlert() {
+        Swal.fire({
+            title: "Olá!",
+            text: 'Você alugou o livro Ungly Love. Deve retornar o livro dentro de 15 dias, caso contrario será cobrado multa no seu e-mail institucional.',
+            icon: "success"
+        });
+
+    }
+</script>
+</html>

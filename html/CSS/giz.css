@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+a {
+    position: relative;
+    left: 2.5%;
+    text-decoration: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 3px 25px 3px 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: gray;
+    color: black;
+    border: solid 2px black; 
+    font-weight: 400;
+}
+
+#header {
+    background: #000000;
+    color: white;
+    font-size: 18px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.452) 5px 5px 25px, rgba(0, 0, 0, 0.46) 5px 10px 25px;
+    width: 100%;
+    font-family: monospace;
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+}
+
+#header h3 {
+    padding: 15px;
+    font-weight: 600;
+}
+
+#header img {
+    margin-bottom: 10px;
+}
+
+body{
+    align-items: center;
+    min-height: 100vh;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card {
+    padding: 17px;
+    border: solid 1px black;
+    border-radius: 20px;
+    box-shadow: rgba(255, 68, 0, 0.659) 4px 4px 20px;
+    margin: 13px;
+    margin-right: 25px;
+}
+
+.card img {
+    width: 2400px;
+    cursor: pointer;
+    height: 650px;
+}
+
+.txt {
+    margin: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.txt h2 {
+    font-size: 27px;
+    margin-bottom: 42px;
+}
+
+.txt-resumo {
+    font-size: 21px;
+}
+
+.txt-autor {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.btn2 {
+    position: relative;
+    left: 47%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 7px 75px 7px 75px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: gray;
+    color: black;
+}
+

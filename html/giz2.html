@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Homem de Giz</title>
+    <link rel="stylesheet" href="CSS/giz.css">
+    <link rel="shortcut icon" href="./image/Logos-DMC-png.png" type="image/x-icon">
+</head>
+<body>
+
+    <header style="text-align: center;justify-content: center; align-items: center;">
+        <div id="header" class="header"> 
+          <h3 class="title"> Escola Estadual Décio Martins Costa </h3>
+          <img class="Logo" src="./image/Logos-DMC-png.png" alt="Logo Décio" width="100px" height="110px">
+        </div>
+      </header>
+
+      <section>
+       <a href="./page2.html">Voltar</a>
+      </section>
+
+    <main>
+        <section>
+        <div class="card">
+            <img src="./image/livro 1- homem de gis.jpg" alt="O homem de giz">
+        </div>
+        <div class="txt">
+            <h2>O HOMEM DE GIZ</h2>
+            <p class="txt-resumo">"O Homem de Giz" é um romance de mistério e suspense escrito por C.J. Tudor. A história gira em torno de um grupo de amigos de infância que, em 1986, se envolvem em uma série de eventos 
+            perturbadores após descobrirem figuras desenhadas com giz que representam cada um deles. Esses desenhos aparentemente inocentes se tornam um sinistro código para eventos trágicos que se desenrolam na vida desses 
+            amigos. Anos depois, o protagonista, Eddie, retorna à sua cidade natal e descobre que o passado obscuro e as consequências dos eventos de sua infância estão longe de serem resolvidos. O livro mistura elementos 
+            de suspense, thriller psicológico e toques sobrenaturais para criar uma trama envolvente e misteriosa.</p> <br>
+
+            <p class="txt-autor"><strong>Autor: </strong>  C.J. Tudor, cujo nome completo é Caroline Janice Tudor. Tudor é uma escritora britânica nascida em Salisbury, Inglaterra. Ela começou sua carreira como autora depois 
+            de trabalhar em diversas áreas, incluindo como apresentadora de televisão, jornalista e instrutora de escrita criativa. Seu romance de estreia, "O Homem de Giz" (The Chalk Man, no título original), foi publicado 
+            em 2018 e recebeu aclamação da crítica por sua trama envolvente e atmosfera misteriosa. </p>
+        </div>
+        </section>
+
+        <button onclick="abrirAlert()" class="btn2">
+           Alugar 
+        </button>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function abrirAlert() {
+        Swal.fire({
+            title: "Olá!",
+            text: 'Você alugou o livro O Homem de Giz. Deve retornar o livro dentro de 15 dias, caso contrario será cobrado multa no seu e-mail institucional.',
+            icon: "success"
+        });
+
+    }
+</script>
+</html>

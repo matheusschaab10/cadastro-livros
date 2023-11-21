@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Não Há Dia Fácil</title>
+    <link rel="stylesheet" href="CSS/giz.css">
+    <link rel="shortcut icon" href="./image/Logos-DMC-png.png" type="image/x-icon">
+</head>
+<body>
+
+    <header style="text-align: center;justify-content: center; align-items: center;">
+        <div id="header" class="header"> 
+          <h3 class="title"> Escola Estadual Décio Martins Costa </h3>
+          <img class="Logo" src="./image/Logos-DMC-png.png" alt="Logo Décio" width="100px" height="110px">
+        </div>
+      </header>
+
+      <section>
+       <a href="./page.html">Voltar</a>
+      </section>
+
+    <main>
+        <section>
+        <div class="card">
+            <img src="./image/livro 3- Não há dia fácil.jpg" alt="Não há dia facil" height="650px">
+        </div>
+        <div class="txt">
+            <h2>NÃO HÁ DIA FÁCIL</h2>
+            <p class="txt-resumo">"Não Há Dia Fácil" (título original: "No Easy Day") é um livro escrito por Mark Owen, um pseudônimo usado por um ex-membro da equipe SEAL da Marinha dos Estados Unidos. O autor, que participou da operação que resultou 
+            na morte de Osama bin Laden em 2011, oferece uma visão única e detalhada dos treinamentos intensivos e das operações especiais conduzidas pela equipe SEAL. <br>
+            O livro abrange não apenas a missão de capturar Bin Laden, mas também explora a vida cotidiana, os desafios e as decisões difíceis enfrentadas pelos membros das forças especiais. Mark Owen descreve as táticas, o planejamento meticuloso 
+            e a execução precisa da operação, dando aos leitores uma perspectiva interna rara sobre a elite militar dos Estados Unidos
+            </p> <br>
+
+            <p class="txt-autor"><strong>Autor: </strong>  Mark Owen. No entanto, em 2014, o verdadeiro autor foi revelado como Matt Bissonnette, um ex-membro da equipe SEAL da Marinha dos Estados Unidos que participou da operação que resultou na morte 
+            de Osama bin Laden. Bissonnette, um veterano altamente condecorado, decidiu escrever o livro para compartilhar sua perspectiva única sobre as operações especiais, destacando não apenas a missão Bin Laden, mas também a vida e os desafios 
+            enfrentados pelos membros das forças especiais. </p>
+        </div>
+        </section>
+
+        <button onclick="abrirAlert()" class="btn2">
+           Alugar 
+        </button>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function abrirAlert() {
+        Swal.fire({
+            title: "Olá!",
+            text: 'Você alugou o livro Não há dia Fácil. Deve retornar o livro dentro de 15 dias, caso contrario será cobrado multa no seu e-mail institucional.',
+            icon: "success"
+        });
+
+    }
+</script>
+</html>

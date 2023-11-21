@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Eu Era Antes De Você</title>
+    <link rel="stylesheet" href="CSS/giz.css">
+    <link rel="shortcut icon" href="./image/Logos-DMC-png.png" type="image/x-icon">
+</head>
+<body>
+
+    <header style="text-align: center;justify-content: center; align-items: center;">
+        <div id="header" class="header"> 
+          <h3 class="title"> Escola Estadual Décio Martins Costa </h3>
+          <img class="Logo" src="./image/Logos-DMC-png.png" alt="Logo Décio" width="100px" height="110px">
+        </div>
+      </header>
+
+      <section>
+       <a href="./page.html">Voltar</a>
+      </section>
+
+    <main>
+        <section>
+        <div class="card">
+            <img src="./image/livro 4- Como eu era antes de voce.jpg" alt="Como Eu Era Antes De Você" height="650px">
+        </div>
+        <div class="txt">
+            <h2>COMO EU ERA ANTES DE VOCÊ</h2>
+            <p class="txt-resumo">"Como Eu Era Antes de Você" é um romance escrito por Jojo Moyes. A trama se desenrola em torno de Louisa Clark, uma jovem mulher com uma vida comum que, após perder seu emprego, aceita um trabalho como cuidadora de Will 
+            Traynor, um homem rico que ficou tetraplégico após um acidente. Will é inicialmente cético em relação à vida e à sua nova condição, o que cria um desafio para Louisa. <br>
+            Ao longo da história, Louisa e Will desenvolvem uma relação única e complexa. A narrativa explora temas como a adaptação às mudanças de vida, a importância de aproveitar o presente e as questões éticas relacionadas à qualidade de vida. Um 
+            dos elementos centrais da trama é a decisão de Will de considerar a opção de encerrar sua própria vida, o que coloca em pauta questões éticas e morais difíceis. <br>
+            O livro aborda questões profundas sobre o significado da vida, o papel das escolhas pessoais e a influência que os relacionamentos têm em nossa jornada
+            </p> <br>
+
+            <p class="txt-autor"><strong>Autor: </strong> Escrito por Jojo Moyes, uma autora britânica nascida em 4 de agosto de 1969. Moyes começou sua carreira como jornalista e, ao longo dos anos, transitou para a ficção. Ela é conhecida por seus romances 
+            contemporâneos que frequentemente exploram temas emocionais e relacionamentos complexos. <br>
+            Antes de "Como Eu Era Antes de Você", Jojo Moyes já havia escrito vários outros romances, mas foi com esse livro que ela alcançou reconhecimento internacional. A obra tornou-se um best-seller e foi adaptada para o cinema em 2016. </p>
+        </div>
+        </section>
+
+        <button onclick="abrirAlert()" class="btn2">
+           Alugar 
+        </button>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function abrirAlert() {
+        Swal.fire({
+            title: "Olá!",
+            text: 'Você alugou o livro Como Eu Era Antes De Você. Deve retornar o livro dentro de 15 dias, caso contrario será cobrado multa no seu e-mail institucional.',
+            icon: "success"
+        });
+
+    }
+</script>
+</html>

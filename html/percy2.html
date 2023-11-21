@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percy Jackson e o Olimpianos</title>
+    <link rel="stylesheet" href="CSS/giz.css">
+    <link rel="shortcut icon" href="./image/Logos-DMC-png.png" type="image/x-icon">
+</head>
+<body>
+
+    <header style="text-align: center;justify-content: center; align-items: center;">
+        <div id="header" class="header"> 
+          <h3 class="title"> Escola Estadual Décio Martins Costa </h3>
+          <img class="Logo" src="./image/Logos-DMC-png.png" alt="Logo Décio" width="100px" height="110px">
+        </div>
+      </header>
+
+      <section>
+       <a href="./page2.html">Voltar</a>
+      </section>
+
+    <main>
+        <section>
+        <div class="card">
+            <img src="./image/livro 7- Parcy Jackson.jpg" alt="Parcy Jackson e o Olimpianos" height="650px">
+        </div>
+        <div class="txt">
+            <h2>PERCY JACKSON E OS OLIPIANOS </h2>
+            <p class="txt-resumo">"Percy Jackson e os Olimpianos" é uma série de livros de fantasia escrita por Rick Riordan. A história segue Percy Jackson, um adolescente que descobre que é um semideus, ou seja, um filho de um dos 
+            deuses do Olimpo, da mitologia grega. A série é composta por cinco livros: <br>
+            5 - "O Último Olimpiano" (The Last Olympian): A guerra entre os deuses e os Titãs atinge seu clímax, e Percy desempenha um papel crucial na defesa do Olimpo. <br>
+            Ao longo da série, Percy e seus amigos enfrentam monstros mitológicos, interagem com deuses e deusas gregos, e descobrem segredos sobre o mundo dos semideuses. A narrativa é cheia de aventuras, humor e elementos da mitologia 
+            grega, tornando-a popular entre leitores jovens e adultos. Rick Riordan construiu um universo cativante que se estende para além de "Percy Jackson e os Olimpianos", com outras séries relacionadas, explorando mitologias diferentes.
+            </p> <br>
+
+            <p class="txt-autor"><strong>Autor: </strong>Rick Riordan, cujo nome completo é Richard Russell Riordan Jr., é um autor norte-americano nascido em 5 de junho de 1964, em San Antonio, Texas. Antes de se tornar um autor de sucesso, 
+            Riordan lecionou por muitos anos como professor de inglês e história em escolas públicas. <br>
+            Ele alcançou grande notoriedade e popularidade com a série "Percy Jackson e os Olimpianos", que mistura mitologia grega com aventuras modernas para jovens leitores. A inspiração para a série surgiu a partir das histórias que Riordan 
+            contava para seu filho, que foi diagnosticado com dislexia e TDAH. Riordan queria criar histórias envolventes com personagens que enfrentam desafios semelhantes aos do seu filho.
+            </p>
+        </div>
+        </section>
+
+        <button onclick="abrirAlert()" class="btn2">
+           Alugar 
+        </button>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function abrirAlert() {
+        Swal.fire({
+            title: "Olá!",
+            text: 'Você alugou o livro Percy Jackson e o Olimpianos. Deve retornar o livro dentro de 15 dias, caso contrario será cobrado multa no seu e-mail institucional.',
+            icon: "success"
+        });
+
+    }
+</script>
+</html>

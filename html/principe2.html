@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Pequeno Príncipe</title>
+    <link rel="stylesheet" href="CSS/giz.css">
+    <link rel="shortcut icon" href="./image/Logos-DMC-png.png" type="image/x-icon">
+</head>
+<body>
+
+    <header style="text-align: center;justify-content: center; align-items: center;">
+        <div id="header" class="header"> 
+          <h3 class="title"> Escola Estadual Décio Martins Costa </h3>
+          <img class="Logo" src="./image/Logos-DMC-png.png" alt="Logo Décio" width="100px" height="110px">
+        </div>
+      </header>
+
+      <section>
+       <a href="./page2.html">Voltar</a>
+      </section>
+
+    <main>
+        <section>
+        <div class="card">
+            <img src="./image/livro 2- O pequeno principe.webp" alt="O pequeno principe">
+        </div>
+        <div class="txt">
+            <h2>O PEQUENO PRÍNCIPE</h2>
+            <p class="txt-resumo">"O Pequeno Príncipe" é uma obra clássica da literatura escrita por Antoine de Saint-Exupéry. O livro conta a história de um aviador que, após uma pane no deserto do Saara, encontra um pequeno príncipe, um ser celestial 
+            que veio de um pequeno asteroide chamado B-612. Ao longo da narrativa, o pequeno príncipe compartilha suas experiências e filosofias de vida, enquanto visita diferentes planetas habitados por personagens peculiares, cada um representando diferentes 
+            aspectos da sociedade e da natureza humana. <br>
+            O livro aborda temas como a inocência da infância, a importância das relações interpessoais, a busca pelo significado da vida e a essência invisível que só pode ser vista com o coração. Uma das lições centrais do livro é a ênfase na importância dos 
+            valores intangíveis e das conexões emocionais, em contraste com a busca de riquezas materiais e sucesso superficial.
+            </p> <br>
+
+            <p class="txt-autor"><strong>Autor: </strong>  Antoine de Saint-Exupéry, o autor de "O Pequeno Príncipe," nasceu em Lyon, França, em 1900, e foi um renomado escritor e aviador. Sua vida foi marcada por suas experiências como piloto de aviação, 
+            incluindo seu trabalho como piloto de correio aéreo na época em que voava para a Aeropostale. <br>
+            Saint-Exupéry utilizou suas experiências como piloto como inspiração para muitas de suas obras, incluindo "Voo Noturno" e "Terra dos Homens". "O Pequeno Príncipe" foi publicado em 1943 e é considerado uma de suas obras mais famosas e queridas. <br>
+            Além de suas habilidades como escritor, Saint-Exupéry também era um ilustrador talentoso, e as ilustrações presentes em "O Pequeno Príncipe" são de sua própria autoria. Ele serviu na Segunda Guerra Mundial como piloto de reconhecimento, 
+            e sua aeronave desapareceu em uma missão em 1944, permanecendo desaparecido por muitos anos até que destroços de seu avião foram encontrados em 1998 no Mar Mediterrâneo. </p>
+        </div>
+        </section>
+
+        <button onclick="abrirAlert()" class="btn2">
+           Alugar 
+        </button>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function abrirAlert() {
+        Swal.fire({
+            title: "Olá!",
+            text: 'Você alugou o livro O Pequeno Príncipe. Deve retornar o livro dentro de 15 dias, caso contrario será cobrado multa no seu e-mail institucional.',
+            icon: "success"
+        });
+
+    }
+</script>
+</html>

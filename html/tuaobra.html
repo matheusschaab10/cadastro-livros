@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é a Tua Obra</title>
+    <link rel="stylesheet" href="CSS/tuaobra.css">
+    <link rel="shortcut icon" href="./image/Logos-DMC-png.png" type="image/x-icon">
+</head>
+<body>
+
+    <header style="text-align: center;justify-content: center; align-items: center;">
+        <div id="header" class="header"> 
+          <h3 class="title"> Escola Estadual Décio Martins Costa </h3>
+          <img class="Logo" src="./image/Logos-DMC-png.png" alt="Logo Décio" width="100px" height="110px">
+        </div>
+      </header>
+
+      <section>
+       <a href="./page.html">Voltar</a>
+      </section>
+
+    <main>
+        <section>
+        <div class="card">
+            <img src="./image/livro 8- Qual é a tua obra.jpg" alt="Qual é a Tua Obra" height="650px">
+        </div>
+        <div class="txt">
+            <h2>QUAL É A TUA OBRA? </h2>
+            <p class="txt-resumo">"Qual é a Tua Obra?" é um livro escrito por Mario Sergio Cortella, um filósofo, educador e escritor brasileiro. Publicado em 2007, o livro propõe reflexões sobre o sentido do trabalho e sua relação com a 
+            realização pessoal e profissional. Cortella explora conceitos como ética, responsabilidade e propósito no contexto do trabalho e da carreira. <br>
+            O autor argumenta que o trabalho vai além de uma simples atividade para ganhar dinheiro, sendo uma parte fundamental da construção do significado da vida. Ele desafia os leitores a pensarem mais profundamente sobre o propósito de 
+            suas atividades profissionais, questionando como o trabalho contribui para o bem-estar individual e coletivo.
+            </p> <br>
+
+            <p class="txt-autor"><strong>Autor: </strong>é um renomado filósofo, educador, escritor e palestrante brasileiro. Nascido em Londrina, Paraná, em 5 de março de 1954, Cortella tem uma carreira dedicada à educação e à reflexão filosófica 
+            sobre questões éticas e sociais. <br>
+            Ele é mestre e doutor em Educação pela PUC-SP e tem uma vasta experiência no campo educacional. Ao longo de sua carreira, Cortella ocupou cargos de destaque em instituições de ensino e contribuiu para o desenvolvimento de ideias e 
+            práticas relacionadas à educação no Brasil.
+            </p>
+        </div>
+        </section>
+
+        <button onclick="abrirAlert()" class="btn2">
+           Alugar 
+        </button>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function abrirAlert() {
+        Swal.fire({
+            title: "Olá!",
+            text: 'Você alugou o livro Qual é a Tua Obra. Deve retornar o livro dentro de 15 dias, caso contrario será cobrado multa no seu e-mail institucional.',
+            icon: "success"
+        });
+
+    }
+</script>
+</html>
